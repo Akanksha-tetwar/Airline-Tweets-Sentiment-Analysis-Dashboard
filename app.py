@@ -14,7 +14,8 @@ st.markdown(" This application is a Streamlit dashboard to analyze the sentiment
 st.sidebar.markdown(" This application is a Streamlit dashboard to analyze the sentiments of tweets. 🐦")
 
 ### Loading the data:
-DATA_URL = ("C:/Users/akank/PycharmProjects/AirlineSentimentAnalysisDashboard/Tweets.csv")
+#Tweets.csv
+DATA_URL = ("Tweets.csv")
 #"C:\Users\akank\PycharmProjects\AirlineSentimentAnalysisDashboard\Tweets2.csv"
 
 @st.cache(persist=True)
